@@ -1,0 +1,7 @@
+
+{
+  "device": "Dev7",
+  "total_channels": 4,
+  "sampling_rate_hz": 1000,
+  "display_max_channels": 8
+}
