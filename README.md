@@ -121,3 +121,14 @@ Consistent naming greatly simplifies downstream analysis.
 ## License
 MIT License
 
+
+## Offline fatigue analysis
+
+The final core modeling and uncertainty-evaluation implementation is in
+[`analysis/fatigue/`](analysis/fatigue/README.md). It includes the retained
+personalized regression baseline, residual-GP candidate, CNN reference and
+probabilistic evaluation. All recordings, labels, caches and trained weights
+are provided separately and are excluded from Git.
+
+The existing acquisition and marker source remains under
+[`EMG-LSL-Acquisition-Suite/`](EMG-LSL-Acquisition-Suite/).

@@ -1,0 +1,23 @@
+# Private recordings, labels, feature caches and trained weights
+*.xdf
+*.mat
+*.npz
+*.npy
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.zip
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.edf
+**/data/
+**/results/
+**/runs/
+**/__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.env
